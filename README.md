@@ -9,4 +9,15 @@ In a web browser, navigate to https://nodejs.org/en/download/. Click the Install
 
 # Creating a Node Server
 
-Initialize NPM in our project folder. </br> This is done by with ```npm init```
+Initialize NPM in our project folder. </br> In the terminal, navigate to the project directory and execute ```npm init``` </br>
+This will create a package.json file which is like a configuration file for the project. </br>
+Create the ```app.js``` file in the folder which will contain our main code to be executed
+## Adding your own scripts:
+To the package.json file, edit it as below:
+```
+ "scripts": {
+    "start": "node app.js"
+  }
+```
+## To run the app
+In the terminal: ``` npm start```
