@@ -11,7 +11,14 @@ In a web browser, navigate to https://nodejs.org/en/download/. Click the Install
 
 Initialize NPM in our project folder. </br> In the terminal, navigate to the project directory and execute ```npm init``` </br>
 This will create a package.json file which is like a configuration file for the project. </br>
-Create the ```app.js``` file in the folder which will contain our main code to be executed
+Create the ```app.js``` file in the folder which will contain our main code to be executed. </br>
+A simple node server: 
+```
+const http = require('http');
+const server = http.createServer((req, res) => {
+});
+server.listen(3000);
+```
 ## Adding your own scripts:
 To the package.json file, edit it as below:
 ```
