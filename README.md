@@ -21,3 +21,11 @@ To the package.json file, edit it as below:
 ```
 ## To run the app
 In the terminal: ``` npm start```
+
+## Installing 3rd Party Packages
+a) Installing it as a development package(To be used in development) : ```npm install --save-dev``` </br>
+b) Installing it as a production dependency(To be used in the end project) : ```npm install --save``` </br>
+c) Installing it globally (can be accessed anywhere in the machine) : ```npm install --g``` </br>
+
+
+
